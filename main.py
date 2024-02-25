@@ -123,7 +123,8 @@ class MiMotionRunner:
         url1 = "https://api-user.huami.com/registrations/" + self.user + "/tokens"
         login_headers = {
             "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-            "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2",
+            "User-Agent": "Android / Chrome 76.0.3809.111
+Mozilla/5.0 (Linux; Android 7.1.1; OPPO R9sk) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36",
             "X-Forwarded-For": self.fake_ip_addr
         }
         data1 = {
